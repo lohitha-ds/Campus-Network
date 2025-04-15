@@ -1,0 +1,29 @@
+margin: 0;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <h1>Admin Dashboard</h1>
+    <p>Welcome, Admin! You can manage the Placement Calendar, Interview Questions, and Mock Interview here.</p>
+
+    <div class="admin-actions">
+        <form action="placement-calendar-admin.php" method="GET">
+            <button type="submit">Modify Placement Calendar</button>
+        </form>
+        <form action="interview-questions-modify.php" method="GET">
+            <button type="submit">Modify Interview Questions</button>
+        </form>
+        <form action="mock-interview-modify.php" method="GET">
+            <button type="submit">Modify Mock Interview</button>
+        </form>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2024 Campus Network. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
